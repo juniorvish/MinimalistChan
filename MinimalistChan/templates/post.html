@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinimalistChan</title>
+    <link rel="stylesheet" href="/static/css/tailwind.min.css">
+</head>
+<body>
+    <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold mb-4">MinimalistChan</h1>
+        <div id="postContainer">
+            <!-- Posts will be rendered here -->
+        </div>
+        <form id="postForm" class="mt-4">
+            <label for="postInput" class="block text-lg font-semibold mb-2">Create a new post:</label>
+            <textarea id="postInput" class="w-full border border-gray-300 p-2 rounded mb-2" rows="4" placeholder="Write your post content here..."></textarea>
+            <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded">Submit</button>
+        </form>
+    </div>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
